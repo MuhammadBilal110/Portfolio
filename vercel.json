@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [
-      { "src": "portfolio", "use": "@vercel/node@14" }
+      { "src": "Portfolio", "use": "@vercel/node@14" }
     ]
   }
   
