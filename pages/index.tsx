@@ -15,9 +15,16 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
-      🚀 Enthusiastic Software Engineer | MERN Stack Specialist | Blockchain Developer
+      Passionate and detail oriented UI/UX Designer
+      and 3d Metaverse Designer Strong background in 
+      design principles, wireframing, and prototyping. 
+      Combines creativity with a data-driven mindset 
+      to design intuitive and user-friendly interfaces. 
+      Collaborative team player with excellent 
+      communication skills. Committed to continuous 
+      learning.Dedicated to making a positive impact 
+      through design. 
 
-Greetings! I'm Muhammad Bilal, a passionate Software Engineer with a penchant for innovation and a solid background in MERN stack development and Blockchain technology. With a Bachelor's degree in Computer Science from PAF-KIET and certification in Artificial Intelligence from PIAIC, I bring a clear understanding of software development principles coupled with a thirst for knowledge and growth.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

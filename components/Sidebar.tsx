@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <>
       <Image
-        src="/images/profileImage.jpeg"
+        src="/images/dani.png"
         alt="avatar"
         className=" mx-auto border rounded-full "
         height="128px"
@@ -23,15 +23,15 @@ const Sidebar = () => {
         quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green ">Muhammad</span> Bilal
+        <span className="text-green ">DANIYAL </span> KHALID
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
-        Software Engineer
+      UI/UX & 3D Metaverse Designer
       </p>
       {/* Resume */}
       <a
-        href="/assets/Bilal-mern-stack.pdf"
-        download="Bilal-mern-stack.pdf"
+        href="/assets/dani-cv.pdf"
+        download="dani-cv.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
         <GiTie className="w-6 h-6" />
@@ -40,15 +40,11 @@ const Sidebar = () => {
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.instagram.com/m_bilal110/">
-          <AiFillInstagram className="w-8 h-8 cursor-pointer" />
-        </a>
-        <a href="https://www.linkedin.com/in/muhammad-bilal-229577200" >
+      
+        <a href="https://www.linkedin.com/in/daniyal-khalid1993/" >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/MuhammadBilal110">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
-        </a>
+ 
       </div>
 
       {/* Contacts */}
@@ -59,15 +55,15 @@ const Sidebar = () => {
         <div className="flex items-center justify-center">
           <GoLocation className="mr-2" /> <span>Karachi,Pakistan </span>
         </div>
-        <p className="my-2 "> Bilal110d@gmail.com </p>
-        <p className="my-2"> +92 3340 270463 </p>
+        <p className="my-2 "> daniyal130@gmail.com </p>
+        <p className="my-2"> +92-332-3817844 </p>
       </div>
 
       {/* Email Button */}
 
       <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:Bilal110d@gmail.com")}
+        onClick={() => window.open("mailto:daniyal130@gmail.com")}
       >
         Email me
       </button>
